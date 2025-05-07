@@ -7,9 +7,13 @@ export default function Home() {
       {/* Headline */}
       <h1 className="text-4xl font-bold mb-4">Hi, I'm Ashlesha 👋</h1>
       {/* Short subtitle */}
-      <p className="text-lg mb-6">Full-stack developer & crochet artist</p>
+      <p className="text-lg mb-6">Full-stack developer</p>
       {/* Call-to-action button */}
-      <Button>Download Resume</Button>
+      <Button asChild>
+        <a href="https://drive.google.com/file/d/1N7vrSYb3-iQK48KiMzDgO33CZpBGoH_g/view" target="_blank" rel="noopener noreferrer">
+          Resume
+        </a>
+      </Button>
     </section>
   );
 }
